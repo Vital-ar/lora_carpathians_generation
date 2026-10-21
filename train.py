@@ -35,7 +35,7 @@ DIFFUSERS_SCRIPT = (
 )
 
 BASE_MODEL = "stable-diffusion-v1-5/stable-diffusion-v1-5"
-TRIGGER = "mtnstyle"
+TRIGGER = "crpth"
 
 # Initial experiment settings.
 RESOLUTION = 512
