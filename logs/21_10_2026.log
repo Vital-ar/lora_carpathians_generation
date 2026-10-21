@@ -1,0 +1,96 @@
+[ 2026-10-21 15:30:05,808 ] ::: INFO ::: FILE [root] --- LINE: [11]
+Image resizing started: ImageResizeEntity(input_dir=WindowsPath('data/images'), output_dir=WindowsPath('data/images_512'), size=512, jpeg_quality=95, image_exts=('.jpg', '.jpeg', '.png', '.webp'))
+[ 2026-10-21 15:30:07,110 ] ::: INFO ::: FILE [root] --- LINE: [43]
+Resized 41 images to 512x512 -> data\images_512
+[ 2026-10-21 15:30:07,111 ] ::: INFO ::: FILE [root] --- LINE: [13]
+Image resizing finished: 41 files
+[ 2026-10-21 15:30:07,111 ] ::: INFO ::: FILE [root] --- LINE: [16]
+Dataset preparation started: DatasetPrepEntity(images_dir=WindowsPath('data/images'), captions_path=WindowsPath('data/excel_metadata.csv'), out_dir=WindowsPath('data/sd_lora_dataset'), trigger='crpth', replace_prefix='ukrainian carpathian mountains', holdout=5, min_side=512, max_words=40, seed=42, image_exts=('.jpg', '.jpeg', '.png', '.webp'))
+[ 2026-10-21 15:30:07,121 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture1.jpg: trigger set
+[ 2026-10-21 15:30:07,121 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture10.jpg: trigger set
+[ 2026-10-21 15:30:07,121 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture11.jpg: trigger set
+[ 2026-10-21 15:30:07,121 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture12.jpg: trigger set
+[ 2026-10-21 15:30:07,122 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture13.jpg: trigger set
+[ 2026-10-21 15:30:07,122 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture14.jpg: trigger set
+[ 2026-10-21 15:30:07,122 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture15.jpg: trigger set
+[ 2026-10-21 15:30:07,123 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture16.jpg: trigger set
+[ 2026-10-21 15:30:07,123 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture17.jpg: trigger set
+[ 2026-10-21 15:30:07,124 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture18.jpg: trigger set
+[ 2026-10-21 15:30:07,124 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture19.jpg: trigger set
+[ 2026-10-21 15:30:07,125 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture2.jpg: trigger set
+[ 2026-10-21 15:30:07,125 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture20.jpg: trigger set
+[ 2026-10-21 15:30:07,126 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture21.jpg: trigger set
+[ 2026-10-21 15:30:07,126 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture22.jpg: trigger set
+[ 2026-10-21 15:30:07,127 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture23.jpg: trigger set
+[ 2026-10-21 15:30:07,127 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture24.jpg: trigger set
+[ 2026-10-21 15:30:07,127 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture25.jpg: trigger set
+[ 2026-10-21 15:30:07,128 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture26.jpg: trigger set
+[ 2026-10-21 15:30:07,128 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture27.jpg: trigger set
+[ 2026-10-21 15:30:07,129 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture28.jpg: trigger set
+[ 2026-10-21 15:30:07,129 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture29.jpg: trigger set
+[ 2026-10-21 15:30:07,130 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture3.jpg: trigger set
+[ 2026-10-21 15:30:07,130 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture30.jpg: trigger set
+[ 2026-10-21 15:30:07,130 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture31.jpg: trigger set
+[ 2026-10-21 15:30:07,131 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture32.jpg: trigger set
+[ 2026-10-21 15:30:07,131 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture33.jpg: trigger set
+[ 2026-10-21 15:30:07,132 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture34.jpg: trigger set
+[ 2026-10-21 15:30:07,132 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture35.jpg: trigger set
+[ 2026-10-21 15:30:07,133 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture36.jpg: trigger set
+[ 2026-10-21 15:30:07,133 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture37.jpg: trigger set
+[ 2026-10-21 15:30:07,133 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture38.jpg: trigger set
+[ 2026-10-21 15:30:07,133 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture39.jpg: trigger set
+[ 2026-10-21 15:30:07,134 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture4.jpg: trigger set
+[ 2026-10-21 15:30:07,134 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture40.jpg: trigger set
+[ 2026-10-21 15:30:07,134 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture41.jpg: trigger set
+[ 2026-10-21 15:30:07,134 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture5.jpg: trigger set
+[ 2026-10-21 15:30:07,134 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture6.jpg: trigger set
+[ 2026-10-21 15:30:07,135 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture7.jpg: trigger set
+[ 2026-10-21 15:30:07,135 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture8.jpg: trigger set
+[ 2026-10-21 15:30:07,135 ] ::: INFO ::: FILE [root] --- LINE: [69]
+Picture9.jpg: trigger set
+[ 2026-10-21 15:30:07,174 ] ::: INFO ::: FILE [root] --- LINE: [96]
+train: 36 images -> data\sd_lora_dataset\train\metadata.jsonl
+[ 2026-10-21 15:30:07,179 ] ::: INFO ::: FILE [root] --- LINE: [96]
+holdout: 5 images -> data\sd_lora_dataset\holdout\metadata.jsonl
+[ 2026-10-21 15:30:07,179 ] ::: INFO ::: FILE [root] --- LINE: [18]
+Dataset preparation finished: {'train': 'data\\sd_lora_dataset\\train\\metadata.jsonl', 'holdout': 'data\\sd_lora_dataset\\holdout\\metadata.jsonl'}
