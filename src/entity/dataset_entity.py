@@ -38,7 +38,7 @@ class DatasetPrepEntity:
             self.captions_path = Path(self.captions_path or KAGGLE_INPUT / "excel_metadata.csv")
             self.out_dir = Path(self.out_dir or KAGGLE_WORKING)
         else:
-            self.images_dir = Path(self.images_dir or LOCAL_ROOT / "images")
+            self.images_dir = Path(self.images_dir or LOCAL_ROOT / "images_512")
             self.captions_path = Path(self.captions_path or LOCAL_ROOT / "excel_metadata.csv")
             self.out_dir = Path(self.out_dir or LOCAL_ROOT / "sd_lora_dataset")
 

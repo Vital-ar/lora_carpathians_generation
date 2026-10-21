@@ -1,1 +1,14 @@
-pillow
+
+torch
+torchvision
+diffusers
+transformers
+accelerate
+peft
+datasets
+huggingface-hub
+safetensors
+Pillow
+tensorboard
+
+ipykernel
