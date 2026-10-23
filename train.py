@@ -43,7 +43,7 @@ LORA_RANK = 8
 BATCH_PER_GPU = 1
 GRAD_ACCUMULATION = 4
 LEARNING_RATE = 1e-4
-MAX_TRAIN_STEPS = 200
+MAX_TRAIN_STEPS = 700
 CHECKPOINT_STEPS = 100
 NUM_GPUS = 2
 SEED = 42
@@ -183,7 +183,7 @@ def main():
         "--gradient_accumulation_steps", str(GRAD_ACCUMULATION),
         "--learning_rate", str(LEARNING_RATE),
         "--lr_scheduler", "constant",
-        "--lr_warmup_steps", "0",
+        "--lr_warmup_steps", "100",
         "--max_train_steps", str(MAX_TRAIN_STEPS),
         "--mixed_precision", "fp16",
         "--gradient_checkpointing",
