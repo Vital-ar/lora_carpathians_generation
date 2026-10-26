@@ -1,9 +1,10 @@
 from src.pipe.resize_images_pipe import run_resize_images_pipe
 from src.pipe.build_metadata_pipe import run_dataset_prep_pipe
+from src.pipe.lora_train_pipe import run_lora_train_pipe
 def main():
     pathes = run_resize_images_pipe()
     pairs = run_dataset_prep_pipe()
-    print(pairs)
+    _ = run_lora_train_pipe()
 
 if __name__ == '__main__':
     main()

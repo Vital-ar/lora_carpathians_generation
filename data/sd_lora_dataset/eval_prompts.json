@@ -1,0 +1,45 @@
+{
+  "settings": {
+    "trigger": "crpth",
+    "width": 512,
+    "height": 512,
+    "num_inference_steps": 30,
+    "guidance_scale": 7.5,
+    "negative_prompt": "",
+    "seeds": [42, 123]
+  },
+  "prompts": [
+    {"id": 1, "category": "in_domain", "group": "a", "prompt": "crpth, a grassy mountain meadow with scattered pine trees and blue ridges in the distance, overcast sky"},
+    {"id": 2, "category": "in_domain", "group": "b", "prompt": "crpth, a steep green slope with rocky outcrops above a wide valley, hazy sunlight"},
+    {"id": 3, "category": "in_domain", "group": "c", "prompt": "crpth, creeping pine shrubs on a mountain ridge, view down into a deep valley"},
+    {"id": 4, "category": "in_domain", "group": "d", "prompt": "crpth, a rocky mountain peak with green vegetation and pine trees in the foreground, partly cloudy sky"},
+    {"id": 5, "category": "in_domain", "group": "e", "prompt": "crpth, rolling mountain ridges fading into haze, view from a high cliff"},
+    {"id": 6, "category": "in_domain", "group": "f", "prompt": "crpth, a wide green mountain slope under a clear blue sky, bright daylight"},
+    {"id": 7, "category": "in_domain", "prompt": "crpth, dry golden grass on a hillside with dark pine trees and distant mountains"},
+    {"id": 8, "category": "in_domain", "prompt": "crpth, a narrow path along a mountain ridge with green slopes on both sides"},
+
+    {"id": 9,  "category": "no_trigger", "group": "a", "prompt": "a grassy mountain meadow with scattered pine trees and blue ridges in the distance, overcast sky"},
+    {"id": 10, "category": "no_trigger", "group": "b", "prompt": "a steep green slope with rocky outcrops above a wide valley, hazy sunlight"},
+    {"id": 11, "category": "no_trigger", "group": "c", "prompt": "creeping pine shrubs on a mountain ridge, view down into a deep valley"},
+    {"id": 12, "category": "no_trigger", "group": "d", "prompt": "a rocky mountain peak with green vegetation and pine trees in the foreground, partly cloudy sky"},
+    {"id": 13, "category": "no_trigger", "group": "e", "prompt": "rolling mountain ridges fading into haze, view from a high cliff"},
+    {"id": 14, "category": "no_trigger", "group": "f", "prompt": "a wide green mountain slope under a clear blue sky, bright daylight"},
+
+    {"id": 15, "category": "novel_conditions", "prompt": "crpth, mountain meadow covered in fresh snow, pine trees, cold morning light"},
+    {"id": 16, "category": "novel_conditions", "prompt": "crpth, mountain ridges at sunset with orange sky and long shadows"},
+    {"id": 17, "category": "novel_conditions", "prompt": "crpth, dense fog filling a mountain valley, only the tops of pine trees visible"},
+    {"id": 18, "category": "novel_conditions", "prompt": "crpth, autumn mountain slope with orange and yellow trees and a grey sky"},
+    {"id": 19, "category": "novel_conditions", "prompt": "crpth, a small wooden hut on a green mountain meadow with ridges behind it"},
+    {"id": 20, "category": "novel_conditions", "prompt": "crpth, a mountain stream running through a green valley with pine forest"},
+
+    {"id": 21, "category": "unrelated", "prompt": "a cat sitting on a windowsill"},
+    {"id": 22, "category": "unrelated", "prompt": "a portrait of an elderly man with a grey beard, studio lighting"},
+    {"id": 23, "category": "unrelated", "prompt": "a busy city street at night with neon signs and rain"},
+    {"id": 24, "category": "unrelated", "prompt": "a bowl of fruit on a wooden table"},
+    {"id": 25, "category": "unrelated", "prompt": "a red sports car parked in front of a modern building"},
+    {"id": 26, "category": "unrelated", "prompt": "a cozy living room with a sofa and a bookshelf"},
+
+    {"id": 27, "category": "unrelated_with_trigger", "prompt": "crpth, a cat sitting on a rock"},
+    {"id": 28, "category": "unrelated_with_trigger", "prompt": "crpth, a bowl of fruit on a wooden table"}
+  ]
+}
