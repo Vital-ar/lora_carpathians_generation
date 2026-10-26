@@ -29,10 +29,10 @@ class GenerateEntity:
 
     def __post_init__(self) -> None:
         if IS_KAGGLE:
-            self.eval_prompts_path = Path(self.eval_prompts_path or KAGGLE_DATASET / "eval_prompts.json")
+            self.eval_prompts_path = Path(self.eval_prompts_path or KAGGLE_DATASET / "sd_lora_dataset" / "eval_prompts.json")
             self.output_dir = Path(self.output_dir or KAGGLE_WORKING / "generated" / self.run_name)
         else:
-            self.eval_prompts_path = Path(self.eval_prompts_path or LOCAL_ROOT / "eval_prompts.json")
+            self.eval_prompts_path = Path(self.eval_prompts_path or LOCAL_ROOT / "sd_lora_dataset" / "eval_prompts.json")
             self.output_dir = Path(self.output_dir or LOCAL_ROOT / "generated" / self.run_name)
         if self.lora_path is not None:
             self.lora_path = Path(self.lora_path)
