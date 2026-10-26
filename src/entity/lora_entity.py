@@ -5,7 +5,7 @@ from typing import List, Optional
 from src.entity.dataset_entity import IS_KAGGLE, KAGGLE_WORKING, LOCAL_ROOT
 
 # Change to the slug of the Kaggle dataset that holds sd_lora_dataset/ and eval_prompts.json
-KAGGLE_DATASET = Path("data/sd_lora_dataset")
+KAGGLE_DATASET = Path("data")
 
 
 @dataclass
