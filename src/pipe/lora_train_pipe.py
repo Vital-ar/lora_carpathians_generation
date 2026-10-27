@@ -15,7 +15,7 @@ def run_lora_train_pipe(config: Optional[LoraTrainEntity] = None, models: Option
         run_lora_train_pipe(LoraTrainEntity(rank=16, run_name="rank16"))    # one experiment
     `models` is only for tests (tiny random models, no download).
     """
-    config = config or LoraTrainEntity(lora_alpha=16)
+    config = config or LoraTrainEntity(lora_alpha=32, rank=16, lr_warmup_steps=200)
     logger.logging.info("LoRA training started: %s", config)
     final = LoraTrainer(config, models=models).run()
     logger.logging.info("LoRA training finished: %s", final)

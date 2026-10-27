@@ -29,22 +29,22 @@ class LoraTrainEntity:
     # ---- optimisation ----
     learning_rate: float = 1e-4
     weight_decay: float = 1e-2
-    lr_scheduler: str = "cosine"          # "constant", "cosine", "linear", ...
+    lr_scheduler: str = "cosine"          
     lr_warmup_steps: int = 100
-    max_train_steps: int = 1000             # optimizer steps (after accumulation)
+    max_train_steps: int = 2000             
     batch_size: int = 1
-    grad_accum_steps: int = 8             # effective batch = batch_size * grad_accum_steps
+    grad_accum_steps: int = 8             
     max_grad_norm: float = 1.0
-    mixed_precision: bool = True            # fp16 autocast on GPU (T4 has no bf16)
+    mixed_precision: bool = True           
     gradient_checkpointing: bool = True
-    horizontal_flip_prob: float = 0.5       # fine for landscapes
+    horizontal_flip_prob: float = 0.5       
     num_workers: int = 2
     seed: int = 42
 
     # ---- checkpoints, samples, logging ----
     checkpoint_every: int = 100
     sample_every: int = 100
-    num_sample_prompts: int = 4             # prompts from eval_prompts.json used for progress samples
+    num_sample_prompts: int = 4            
     resume: bool = True
     use_mlflow: bool = True
     mlflow_experiment: str = "sd-lora-carpathians"
