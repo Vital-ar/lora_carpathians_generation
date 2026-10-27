@@ -10,5 +10,5 @@ huggingface-hub
 safetensors
 Pillow
 tensorboard
-
+mlflow
 ipykernel
